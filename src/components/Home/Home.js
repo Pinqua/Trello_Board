@@ -12,7 +12,9 @@ function Home() {
 
   useEffect(() => {
     const col = JSON.parse(localStorage.getItem("columns"));
-    setColumns(col);
+    if (col) {
+      setColumns(col);
+    }
   }, []);
 
   useEffect(() => {
