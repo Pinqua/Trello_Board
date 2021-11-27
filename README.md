@@ -5,7 +5,7 @@
 
 ## Demo
 
-https://trello-board.vercel.app
+https://trello-board-pinqua.vercel.app
 
 
 ## Run Locally
