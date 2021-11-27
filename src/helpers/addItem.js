@@ -5,7 +5,7 @@ export const addItem = (id, setColumns) => {
   const desc = window.prompt("Enter Description");
   if (title && desc) {
     setColumns((columns) => {
-      return Object.entries(columns).map(([columnId, column]) => {
+      return Object.entries(columns)?.map(([columnId, column]) => {
         if (columnId === id) {
           return {
             ...column,

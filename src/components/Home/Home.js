@@ -1,6 +1,6 @@
 import { PlusOutlined } from "@ant-design/icons";
 import { Button } from "antd";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { DragDropContext } from "react-beautiful-dnd";
 import { addColumn } from "../../helpers/addColumn";
 import { onDragEnd } from "../../helpers/onDragEnd";
@@ -9,6 +9,16 @@ import "./Home.css";
 
 function Home() {
   const [columns, setColumns] = useState({});
+
+  useEffect(() => {
+    const col = JSON.parse(localStorage.getItem("columns"));
+    setColumns(col);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("columns", JSON.stringify(columns));
+  }, [columns]);
+
   return (
     <div className="home">
       <div className="home__heading">

@@ -7,7 +7,7 @@ import "./Item.css";
 
 function Item({ item, index, columnId, setColumns }) {
   return (
-    <Draggable draggableId={item.id} index={index}>
+    <Draggable draggableId={item?.id} index={index}>
       {(provided, snapshot) => {
         return (
           <div
@@ -21,18 +21,18 @@ function Item({ item, index, columnId, setColumns }) {
             }}
           >
             <Card
-              title={item.title}
+              title={item?.title}
               type="inner"
               extra={
                 <Button
                   type="primary"
                   size="small"
                   icon={<CloseOutlined />}
-                  onClick={() => removeItem(columnId, item.id, setColumns)}
+                  onClick={() => removeItem(columnId, item?.id, setColumns)}
                 />
               }
             >
-              {item.desc}
+              {item?.desc}
             </Card>
           </div>
         );
