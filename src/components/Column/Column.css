@@ -1,0 +1,22 @@
+.column {
+  margin-left: 6px;
+}
+.column:last-child {
+  margin-left: 0;
+}
+.column__button {
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.column__container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: auto;
+  padding: 4px;
+  width: 100%;
+  height: 400px;
+}
+.column__container::-webkit-scrollbar {
+  display: none;
+}

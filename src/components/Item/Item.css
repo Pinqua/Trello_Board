@@ -1,0 +1,8 @@
+.item {
+  color: white;
+  margin-bottom: 4px;
+  user-select: none;
+}
+.item:last-child {
+  margin-bottom: 0;
+}

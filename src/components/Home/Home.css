@@ -1,0 +1,24 @@
+.home {
+  padding: 2rem;
+}
+.home__right {
+  text-align: end;
+  margin: 1rem 0;
+}
+.home__heading {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border-bottom: solid lightgray 1px;
+}
+.home__container {
+  overflow: auto;
+  display: flex;
+  height: 100%;
+  padding: 2rem 5px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.home__container::-webkit-scrollbar {
+  display: none;
+}
