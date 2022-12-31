@@ -1,5 +1,19 @@
+<div align="left">
+            <a href="https://paypal.me/piyushsati311999" target="_blank" style="display: inline-block;">
+                <img
+                    src="https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square&logo=paypal" 
+                    align="left"
+                />
+            </a>
+            <a href="https://www.buymeacoffee.com/piyushsati" target="_blank" style="display: inline-block;">
+                <img
+                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
+                    align="left"
+                />
+            </a>
+</div>  
+<br/>  
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 # Trello Board
 
@@ -45,3 +59,10 @@ Contributions are always welcome!
 [MIT](https://choosealicense.com/licenses/mit/)
 
   
+ 
+<br/>
+<br/>
+
+<p align="center">If you liked the repository, show your  ❤️  by starring and forking it.</p>
+  
+
